@@ -1,0 +1,184 @@
+﻿  main.cpp
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\main.cpp(204,41): warning C4305: инициализация: усечение из "double" в "_Ty"
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\Matrix.h(349,17): warning C4244: аргумент: преобразование "double" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\Matrix.h(308): message : во время компиляции функции-члена класс шаблон "void Matrix<float,MatrixIndexingPolicy>::ReadFromFStream(std::istream &,int)"
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\Matrix.h(295): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Matrix<float,MatrixIndexingPolicy>::ReadFromFStream(std::istream &,int)"
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\main.cpp(150): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Matrix<float,MatrixIndexingPolicy>"
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\Matrix.h(192,26): warning C4244: =: преобразование "_Elem" в "_Ty", возможна потеря данных
+          with
+          [
+              _Elem=int
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\main.cpp(432): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Matrix<float,MatrixIndexingPolicy>::operator =<int,int>(const std::initializer_list<std::initializer_list<_Ty>> &)"
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\main.cpp(432): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Matrix<float,MatrixIndexingPolicy>::operator =<int,int>(const std::initializer_list<std::initializer_list<_Ty>> &)"
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\Matrix.h(208,11): warning C4244: =: преобразование "const _Elem" в "_Ty", возможна потеря данных
+          with
+          [
+              _Elem=int
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\main.cpp(433): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Matrix<float,ColVectorIndexingPolicy>::operator =<int,int>(const std::initializer_list<_Ty> &)"
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\main.cpp(433): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Matrix<float,ColVectorIndexingPolicy>::operator =<int,int>(const std::initializer_list<_Ty> &)"
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\Matrix.h(349,17): warning C4244: аргумент: преобразование "double" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\Matrix.h(308): message : во время компиляции функции-члена класс шаблон "void Matrix<int,MatrixIndexingPolicy>::ReadFromFStream(std::istream &,int)"
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\MatrixUtility.h(611): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Matrix<int,MatrixIndexingPolicy>::ReadFromFStream(std::istream &,int)"
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\main.cpp(102): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Matrix<int,MatrixIndexingPolicy>"
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\MatrixUtility.h(319,20): warning C4244: /=: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\MatrixUtility.h(375): message : выполняется компиляция ссылки на экземпляр шаблон функции "void details::RowDivision<M&,int>(T,size_t,double)"
+          with
+          [
+              M=Matrix<float,MatrixIndexingPolicy>,
+              T=Matrix<float,MatrixIndexingPolicy> &
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\MatrixUtility.h(596): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<float,MatrixIndexingPolicy> RowReduce<Matrix<float,MatrixIndexingPolicy>,int>(const M &,double *,size_t *)"
+          with
+          [
+              M=Matrix<float,MatrixIndexingPolicy>
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\main.cpp(510): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<float,MatrixIndexingPolicy> Inverse<Matrix<float,MatrixIndexingPolicy>,int>(const M &)"
+          with
+          [
+              M=Matrix<float,MatrixIndexingPolicy>
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\MatrixUtility.h(301,34): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\MatrixUtility.h(379): message : выполняется компиляция ссылки на экземпляр шаблон функции "void details::RowSum<M&,int>(T,size_t,size_t,double)"
+          with
+          [
+              M=Matrix<float,MatrixIndexingPolicy>,
+              T=Matrix<float,MatrixIndexingPolicy> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xutility(4022,18): warning C4244: =: преобразование "const _Elem" в "float", возможна потеря данных
+          with
+          [
+              _Elem=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(1061): message : выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt *std::_Copy_unchecked<_Iter,float*>(_InIt,_InIt,_OutIt)"
+          with
+          [
+              _OutIt=float *,
+              _Iter=const int *,
+              _InIt=const int *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(1075): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<T,std::allocator<T>>::_Assign_range<_Iter>(_Iter,_Iter,std::forward_iterator_tag)"
+          with
+          [
+              T=float,
+              _Iter=const int *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(1075): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<T,std::allocator<T>>::_Assign_range<_Iter>(_Iter,_Iter,std::forward_iterator_tag)"
+          with
+          [
+              T=float,
+              _Iter=const int *
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\Matrix.h(94): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<T,std::allocator<T>>::assign<const U*,0>(_Iter,_Iter)"
+          with
+          [
+              T=float,
+              U=int,
+              _Iter=const int *
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\Matrix.h(94): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<T,std::allocator<T>>::assign<const U*,0>(_Iter,_Iter)"
+          with
+          [
+              T=float,
+              U=int,
+              _Iter=const int *
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\main.cpp(172): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<float,MatrixIndexingPolicy>::Matrix<int,int>(const U *,size_t,size_t)"
+          with
+          [
+              U=int
+          ]
+C:\Users\Вячеслав\source\repos\MatrixLib\MatrixLib\main.cpp(172): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<float,MatrixIndexingPolicy>::Matrix<int,int>(const U *,size_t,size_t)"
+          with
+          [
+              U=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681,47): warning C4244: инициализация: преобразование "const _Ty" в "_Objty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Objty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(1652): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const int&>(_Alloc &,_Objty *const ,const int &)"
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(1653): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const int&>(_Alloc &,_Objty *const ,const int &)"
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(1692): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<const _Elem&>(const _Elem &)"
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Elem=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(1692): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<const _Elem&>(const _Elem &)"
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Elem=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(1062): message : выполняется компиляция ссылки на экземпляр шаблон функции "float *std::_Uninitialized_copy<_Iter,std::allocator<T>>(const _InIt,const _InIt,float *,_Alloc &)"
+          with
+          [
+              _Iter=const int *,
+              T=float,
+              _InIt=const int *,
+              _Alloc=std::allocator<float>
+          ]
+  MatrixLib.vcxproj -> C:\Users\Вячеслав\source\repos\MatrixLib\Debug\MatrixLib.exe
