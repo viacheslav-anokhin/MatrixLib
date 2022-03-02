@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+/.vs/MatrixLib/v17/ipch/AutoPCH/e35144200ede02f0/MAIN.ipch
+/MatrixLib/x64/Debug/MatrixLib.log
+/MatrixLib/x64/Debug/vc143.idb
+/MatrixLib/x64/Debug/vc143.pdb
+/MatrixLib/x64/Debug/MatrixLib.tlog
